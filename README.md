@@ -1,3 +1,6 @@
+![Coverage](coverage-badge.svg)
+![CI](https://github.com/anisimov-anthony/07-december-2025-url-checker/workflows/CI/badge.svg)
+
 # URL Checker Service
 
 Веб-сервер для проверки доступности интернет-ресурсов с генерацией PDF отчетов.
@@ -88,3 +91,11 @@ curl -X POST http://localhost:8080/api/report \
 curl http://localhost:8080/api/health
 ```
 
+
+
+## Тестирование
+
+### Запуск тестов
+```bash
+./test-coverage.sh
+```
