@@ -47,7 +47,7 @@
     "status": "healthy",
     "shutdown": false,
     "batches": 5,
-    "timestamp": 1701234567
+    "timestamp": 1765108565
 }
 ```
 
@@ -66,7 +66,7 @@ go mod tidy
 go run main.go
 ```
 
-Сервис будет доступен на порту 8080.
+Сервис будет доступен на порту `8080`
 
 ### Проверка ссылок
 ```bash
