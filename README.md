@@ -88,7 +88,6 @@ curl -X POST http://localhost:8080/api/report \
 curl http://localhost:8080/api/health
 ```
 
-
 ## Тестирование
 
 ### Запуск тестов
@@ -101,3 +100,8 @@ curl http://localhost:8080/api/health
 - **Database**: 82.4%
 - **Service**: 89.3%  
 - **Handlers**: 84.8%
+
+
+## Лицензия
+
+Проект распространяется под [MIT License](LICENSE).
